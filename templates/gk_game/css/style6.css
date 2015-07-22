@@ -1,0 +1,158 @@
+/*
+#------------------------------------------------------------------------
+# game. - December Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+ 
+/* Style 6 */
+
+/* template.css */
+a:hover,
+a:active,
+a:focus,
+#gkMainbody a,
+#gkMainbody header h2 a:active,
+#gkMainbody header h2 a:focus,
+#gkMainbody header h2 a:hover,
+#k2Container article header h2 a:active,
+#k2Container article header h2 a:focus,
+#k2Container article header h2 a:hover,
+#gkSidebar .box a:hover { color: #94a4a5; }
+#gkBannerRight { background: #94a4a5; }
+#gkLogo.cssLogo { background-image: url('../images/style6/logo.png'); }
+#gkBreadcrumb .breadcrumbs li.separator i { color: #94a4a5; }
+#gkFooterNav li:before { background: #94a4a5; }
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover { color: #94a4a5!important; }
+.box.highlights { background: #94a4a5; }
+.box.highlights .header { border-bottom: 1px solid #a6babb; }
+.box.color-bg1 .header,
+.box.color-bg2 .header,
+.box.color-bg3 .header { background: #94a4a5; }
+.box.color-bg3 .header { background: #ff8c31; }
+.box.color1 .header { color: #94a4a5; }
+.box.color3 .header { color: #ff8c31; }
+.box.color1 .header i { color: #94a4a5; }
+.box.color3 .header i { color: #ff8c31; }
+.box.icon-color1 .header > i { color: #94a4a5; }
+.box.icon-color3 .header > i { color: #ff8c31; }
+.gkPopupWrap h3 a { color: #94a4a5; }
+
+/* joomla.css */
+button,
+.button,
+input.button,
+span.button,
+button.button,
+div.button,
+input[type="submit"],
+input[type="button"],
+.pagenav-prev a,
+.pagenav-next a,
+.readon,
+#gkMainbody .itemReadMore,
+#gkMainbody .readmore > a,
+.button.invert:active,
+.button.invert:focus,
+.button.invert:hover { background: #94a4a5; }
+section.categories-list ul ul li { border-left: 3px solid #94a4a5; }
+article header.itemHasImage h1 a:active,
+article header.itemHasImage h1 a:focus,
+article header.itemHasImage h1 a:hover { color: #94a4a5!important; }
+.tooltip-inner strong { background: #94a4a5; }
+.autocompleter-queried { color: #94a4a5!important }
+
+/* gk_stuff.css */
+.nspPagination li:hover,
+.nspPagination li.active { background-color: #94a4a5; }
+.nspNext:hover:after,
+.nspPrev:hover:after { color: #94a4a5; }
+.nspArt h4.nspHeader a:hover { color: #94a4a5; }
+.nspArt p.nspInfo a:active,
+.nspArt p.nspInfo a:focus,
+.nspArt p.nspInfo a:hover { color: #94a4a5!important; }
+.nspArt .nsp-star-1:before { color: #f7a834; }
+.readon:active,
+.readon:focus,
+.readon:hover { color: #94a4a5!important; }
+.box.dark a.readon { color: #94a4a5!important; }
+.box.border .nspMain { border: 1px solid #94a4a5; }
+.box.border .nspArt { border-left: 1px solid #94a4a5; }
+.box.list .nspHeader a:active,
+.box.list .nspHeader a:focus,
+.box.list .nspHeader a:hover { color: #94a4a5!important; }
+.dark-area .nspHeader a:active,
+.dark-area .nspHeader a:focus,
+.dark-area .nspHeader a:hover,
+.dark-area .list .nspHeader a:active,
+.dark-area .list .nspHeader a:focus,
+.dark-area .list .nspHeader a:hover { color: #94a4a5!important; }
+.dark-area p.nspInfo > a { color: #94a4a5!important; }
+.dark-area a.readon { color: #94a4a5!important; }
+.showcase .nspHeader a:active,
+.showcase .nspHeader a:focus,
+.showcase .nspHeader a:hover,
+.showcase-small .nspHeader a:active,
+.showcase-small .nspHeader a:focus,
+.showcase-small .nspHeader a:hover { color: #94a4a5!important; }
+.showcase p.nspInfo .category { background: #ff8c31; }
+.showcase p.nspInfo .category:hover { background: #94a4a5; }
+.box.highlights .gkNspPM-Highlights li { border-bottom: 1px solid #a6babb; }
+.box.highlights .gkNspPM-Highlights li h3:before { border-color: transparent transparent transparent #94a4a5; }
+.gkNspPM-VideoGallery .gkBigBlock strong { background: #ff8c31; }
+.gkNspPM-VideoGallery .gkBigBlock h3 a:active,
+.gkNspPM-VideoGallery .gkBigBlock h3 a:focus,
+.gkNspPM-VideoGallery .gkBigBlock h3 a:hover { color: #94a4a5!important; }
+.gkNspPM-VideoGallery .gkSmallBlock small { border: 1px solid #94a4a5; }
+.gkNspPM-VideoGallery .gkSmallBlock small:after { border-color: transparent #94a4a5 transparent transparent; }
+.dark-area .gkNspPM-VideoGallery .gkSmallBlock h3 a:active,
+.dark-area .gkNspPM-VideoGallery .gkSmallBlock h3 a:focus,
+.dark-area .gkNspPM-VideoGallery .gkSmallBlock h3 a:hover { color: #94a4a5!important; }
+.gkTabsWrap ol li.active,
+.gkTabsWrap ol li.active:hover { background: #1c4290; }
+.gkTabsWrap ol li.active:after { border-top-color: #1c4290; }
+.bigtabs .gkTabsWrap ol li.active,
+.bigtabs .gkTabsWrap ol li.active:hover { background: #94a4a5; }
+.bigtabs .gkTabsWrap ol li.active:after { border-top-color: #94a4a5; }
+.gkIsWrapper-gk_game .gkProgressBar { background: #94a4a5; }
+
+/* menu.css */
+.gkMenu > ul li div.childcontent a:hover { color: #94a4a5!important }
+#gkMenuOverlayClose { color: #94a4a5; }
+#gkMenuOverlayContent .gkcol li a:active,
+#gkMenuOverlayContent .gkcol li a:focus,
+#gkMenuOverlayContent .gkcol li a:hover { color: #94a4a5; }
+
+/* k2.css */
+.k2FeedIcon a:before,
+a.k2FeedIcon:before { color: #94a4a5; }
+.activeCategory a { color: #94a4a5 }
+ul.itemTags li a { background: #94a4a5; }
+.k2CalendarBlock table.calendar tr td.calendarDateLinked a { color: #94a4a5; }
+.k2CalendarBlock table.calendar tr td.calendarToday { background: #94a4a5; }
+.k2CalendarBlock table.calendar tr td.calendarTodayLinked { background: #94a4a5; }
+.calendarNavLink { color: #94a4a5; }
+.k2TagCloudBlock a:hover { color: #94a4a5 }
+
+/* EeasyBlog */
+#ezblog-menu .blog-navi li.toolbar-item > form button.submit-search { background-color: #94a4a5; }
+#eblog-wrapper .list-pagination li a:hover,
+#ezblog-head .component-links a.link-rss span:before,
+#ezblog-head .component-links a.link-email span:before,
+#ezblog-body .blog-title, #ezblog-body .blog-title a:hover,
+#ezblog-body .list-categories li .category-name a:hover,
+#blog-login ul.blog-login-helper a:hover,
+body #ezblog-dashboard a,
+#ezblog-body .blog-read .blog-meta a, 
+#ezblog-body .blog-read .blog-comments a,
+#ezblog-body #ezblog-category .profile-info .profile-title a {
+	color: #94a4a5; 
+}
+#ezblog-label > a:hover {
+	color: #94a4a5!important;
+}
